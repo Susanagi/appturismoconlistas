@@ -1,6 +1,6 @@
 package com.example.conociendobetania.moldes;
 
-public class molderestaurante {
+public class Molderestaurante {
 
     private String nombre;
     private String foto;
@@ -8,10 +8,10 @@ public class molderestaurante {
     private String rangoprecio;
     private String platorecomendado;
 
-    public molderestaurante() {
+    public Molderestaurante() {
     }
 
-    public molderestaurante(String nombre, String foto, String telefono, String rangoprecio, String platorecomendado) {
+    public Molderestaurante(String nombre, String foto, String telefono, String rangoprecio, String platorecomendado) {
         this.nombre = nombre;
         this.foto = foto;
         this.telefono = telefono;
