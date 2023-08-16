@@ -3,6 +3,8 @@ package com.example.conociendobetania.adaptadores;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -13,6 +15,7 @@ import com.example.conociendobetania.moldes.Molderestaurante;
 import java.util.ArrayList;
 
 public class AdaptadorRestaurante extends  RecyclerView.Adapter<AdaptadorRestaurante.viewHolder> {
+
     public ArrayList<Molderestaurante> listaRestaurantes;
     public AdaptadorRestaurante() {
     }
@@ -39,8 +42,20 @@ public class AdaptadorRestaurante extends  RecyclerView.Adapter<AdaptadorRestaur
     }
 
     public class viewHolder extends RecyclerView.ViewHolder {
-        public viewHolder(View vista) {
-          
+
+        ImageView fotoHotel;
+        TextView nombreHotel;
+        TextView precioHotel;
+        TextView contactoHotel;
+
+        public viewHolder(@NonNull View itemView) {
+            super(itemView);
+            fotoHotel=itemView.findViewById(R.id.fotolistahotel);
+            nombreHotel=itemView.findViewById(R.id.nombrelistahotel);
+            precioHotel=itemView.findViewById(R.id.preciolistahotel);
+            contactoHotel=itemView.findViewById(R.id.numerolistahotel);
+
+
         }
 
         public void actualizarDatos(Molderestaurante molderestaurante) {
