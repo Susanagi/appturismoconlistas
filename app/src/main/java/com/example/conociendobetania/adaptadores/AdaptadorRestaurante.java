@@ -43,17 +43,19 @@ public class AdaptadorRestaurante extends  RecyclerView.Adapter<AdaptadorRestaur
 
     public class viewHolder extends RecyclerView.ViewHolder {
 
-        ImageView fotoHotel;
-        TextView nombreHotel;
-        TextView precioHotel;
-        TextView contactoHotel;
+        ImageView fotolistarestaurante;
+        TextView contactorestaurante;
+        TextView preciorestaurante;
+        TextView limitepreciorestaurante;
+        TextView platorecomendadorestaurante;
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-            fotoHotel=itemView.findViewById(R.id.fotolistahotel);
-            nombreHotel=itemView.findViewById(R.id.nombrelistahotel);
-            precioHotel=itemView.findViewById(R.id.preciolistahotel);
-            contactoHotel=itemView.findViewById(R.id.numerolistahotel);
+            fotolistarestaurante=itemView.findViewById(R.id.fotolistarestaurante);
+            contactorestaurante=itemView.findViewById(R.id.Contactolistarestaurante);
+            preciorestaurante=itemView.findViewById(R.id.platorecomendadolistarestaurante);
+            limitepreciorestaurante=itemView.findViewById(R.id.limitepreciolistarestaurante);
+            platorecomendadorestaurante=itemView.findViewById(R.id.platorecomendadolistarestaurante);
 
 
         }

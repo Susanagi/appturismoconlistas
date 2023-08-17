@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.035" />
 
     <ImageView
-        android:id="@+id/fotomachupichu"
+        android:id="@+id/fotolistamachupichusitios"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="fitXY"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.043" />
 
     <TextView
-        android:id="@+id/Contacto"
+        android:id="@+id/Contactolistasitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contacto Susana Giraldo"
@@ -46,11 +46,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Telefono"
+        app:layout_constraintTop_toBottomOf="@+id/Telefonolistasitios"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/Telefono"
+        android:id="@+id/Telefonolistasitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Telefono 3242310182"
@@ -61,11 +61,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fotomachupichu"
+        app:layout_constraintTop_toBottomOf="@+id/fotolistamachupichusitios"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/limiteprecio"
+        android:id="@+id/limitepreciolistasitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="80.000"
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Contacto"
+        app:layout_constraintTop_toBottomOf="@+id/Contactolistasitios"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
